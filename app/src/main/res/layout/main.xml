@@ -17,7 +17,6 @@
       android:text="@string/add_button"
       />
 
-
   <EditText
     android:id="@+id/myEditText"
     android:layout_width="fill_parent" 
@@ -26,10 +25,11 @@
   />
   </LinearLayout>
 
-  <ListView
-    android:id="@+id/myListView"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-  />
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/listFragmentContainer"
+      >
+  </FrameLayout>
 
 </LinearLayout>
